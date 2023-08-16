@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import PokemonCreate from './components/PokemonCreate/PokemonCreate';
 import Detail from './components/Detail/Detail';
 import Error404 from './components/Error404/Error404';
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001';
 
 
 function App() {
